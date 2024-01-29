@@ -1,0 +1,118 @@
+.body{
+    font-family: "Flexo-Medium",arial,sans-serif;
+}
+.table_parent {
+    width: 800px;
+    margin: 12px auto;
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    grid-template-rows: repeat(3, minmax(100px, 200px));
+}
+
+.table_parent>div>img {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.table_parent>div:hover {
+    transform: scale(1.04) !important;
+}
+
+.one {
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    background-image: url(images/pokemon-go-169.png);
+    background-size: contain, cover;
+    
+    position: relative;
+    
+   
+}
+.onetext{
+    background-color: #C7AA79;
+    position: absolute;
+    bottom: 0px;
+    padding: 20px;
+    
+
+}
+h3 {
+    color: #fff;
+}
+.two{
+    background-image: url(images/pokemon-unite-169.png);
+    position: relative;
+    background-size: cover;
+    
+}
+.twotext{
+ 
+    position: absolute;
+    bottom: 0px;
+    background-color: #E3350D;
+    padding: 5px;
+}
+
+.three {
+    height: 250px;
+    
+    background-image: url(images/pokemon-go-168.png);
+    background-size: cover;
+    position: relative;
+    background-size: contain, cover;
+    
+}
+.threetext{
+    position: absolute;
+    bottom: 0px;
+    background-color: #369143;
+    padding: 5px;
+
+}
+.four{
+    background-image: url(images/pokemon-go-167.png);
+    
+    background-size: cover;
+    
+    background-size: contain, cover;
+   
+}
+.fourtext{
+    position: absolute;
+    bottom: 0px;
+    background-color: #1b53ba;
+    padding: 5px;
+
+}
+.five{
+    background-image: url(images/pokemon-sleep-169-en.png);
+    background-size: cover;
+    background-size: contain, cover;
+    
+    
+}
+.fivetext{
+    position: absolute;
+    bottom: 0px;
+    background-color: #30a7d7;
+    padding: 5px;
+
+}
+.six {
+    margin-top: 50px;
+    height: 150px;
+    background-image: url(images/mobile-apps-34.png);
+    background-size: cover;
+    
+}
+.sixtext{
+    position: absolute;
+    bottom: 0px;
+    background-color: #30a7d7;
+    padding: 5px;
+}
