@@ -11,23 +11,17 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 12px;
-    grid-template-rows: repeat(3, minmax(100px, 200px));
+    grid-template-rows: repeat(3, 1fr);
 }
 @media (max-width:800px) {
     .table_parent {
         
-         grid-template-columns: repeat(2, 1fr);
-        gap: 12px;
-        grid-template-rows: repeat(1, minmax(100px, 200px));
+         grid-template-columns: repeat(1, 1fr);
+         grid-template-rows: repeat(1, 1fr);
+       
     
     }
-   
-    .onetext{
-        width: 95%;
-    }
-    .twotext{
-        width: 95%;
-    }
+  
     
 }
 .Left{
